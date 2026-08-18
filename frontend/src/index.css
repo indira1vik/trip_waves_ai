@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Share Tech", sans-serif;
+}
+
+:root {
+    --color-ink: #000022;
+    --color-surface: #E1E1E1;
+    --color-accent: #de3c4b;
+}

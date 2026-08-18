@@ -1,0 +1,236 @@
+[
+    {
+        "upward": {
+            "price": 2133,
+            "segments": [
+                {
+                    "airline": "KLM",
+                    "duration": 95,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "AMS",
+                        "name": "Amsterdam Airport Schiphol",
+                        "time": "2026-08-19 16:00"
+                    },
+                    "departure_airport": {
+                        "id": "DUB",
+                        "name": "Dublin Airport",
+                        "time": "2026-08-19 13:25"
+                    }
+                },
+                {
+                    "airline": "KLM",
+                    "duration": 640,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "LAS",
+                        "name": "Harry Reid International Airport",
+                        "time": "2026-08-19 18:35"
+                    },
+                    "departure_airport": {
+                        "id": "AMS",
+                        "name": "Amsterdam Airport Schiphol",
+                        "time": "2026-08-19 16:55"
+                    }
+                }
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+            "total_duration": 790,
+            "departure_token": "WyJDalJJV21wM1gxcGxVVkpIVjI5QlFUbHRMV2RDUnkwdExTMHRMUzB0TFMxM1ptZGpPRUZCUVVGQlIzRkVjRXRWUjNaWFVYbEJFZ3hMVERFeE5EQjhTMHcyTXpVYUN3allnUTBRQWhvRFZWTkVPQnh3MklFTiIsW1siRFVCIiwiMjAyNi0wOC0xOSIsIkFNUyIsbnVsbCwiS0wiLCIxMTQwIl0sWyJBTVMiLCIyMDI2LTA4LTE5IiwiTEFTIixudWxsLCJLTCIsIjYzNSJdXV0="
+        },
+        "downward": {
+            "price": 2133,
+            "segments": [
+                {
+                    "airline": "Air France",
+                    "duration": 615,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-25 13:05"
+                    },
+                    "departure_airport": {
+                        "id": "LAS",
+                        "name": "Harry Reid International Airport",
+                        "time": "2026-08-24 17:50"
+                    }
+                },
+                {
+                    "airline": "Air France",
+                    "duration": 115,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "DUB",
+                        "name": "Dublin Airport",
+                        "time": "2026-08-25 15:25"
+                    },
+                    "departure_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-25 14:30"
+                    }
+                }
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "total_duration": 815,
+            "departure_token": null
+        }
+    },
+    {
+        "upward": {
+            "price": 2146,
+            "segments": [
+                {
+                    "airline": "Air France",
+                    "duration": 110,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-19 12:05"
+                    },
+                    "departure_airport": {
+                        "id": "DUB",
+                        "name": "Dublin Airport",
+                        "time": "2026-08-19 09:15"
+                    }
+                },
+                {
+                    "airline": "Air France",
+                    "duration": 655,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "LAS",
+                        "name": "Harry Reid International Airport",
+                        "time": "2026-08-19 15:35"
+                    },
+                    "departure_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-19 13:40"
+                    }
+                }
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "total_duration": 860,
+            "departure_token": "WyJDalJJV21wM1gxcGxVVkpIVjI5QlFUbHRMV2RDUnkwdExTMHRMUzB0TFMxM1ptZGpPRUZCUVVGQlIzRkVjRXRWUjNaWFVYbEJFZ3RCUmpFMk1UZDhRVVkxTmhvTENPcUxEUkFDR2dOVlUwUTRISERxaXcwPSIsW1siRFVCIiwiMjAyNi0wOC0xOSIsIkNERyIsbnVsbCwiQUYiLCIxNjE3Il0sWyJDREciLCIyMDI2LTA4LTE5IiwiTEFTIixudWxsLCJBRiIsIjU2Il1dXQ=="
+        },
+        "downward": {
+            "price": 2146,
+            "segments": [
+                {
+                    "airline": "Air France",
+                    "duration": 615,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-25 13:05"
+                    },
+                    "departure_airport": {
+                        "id": "LAS",
+                        "name": "Harry Reid International Airport",
+                        "time": "2026-08-24 17:50"
+                    }
+                },
+                {
+                    "airline": "Air France",
+                    "duration": 115,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "DUB",
+                        "name": "Dublin Airport",
+                        "time": "2026-08-25 15:25"
+                    },
+                    "departure_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-25 14:30"
+                    }
+                }
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "total_duration": 815,
+            "departure_token": null
+        }
+    },
+    {
+        "upward": {
+            "price": 2163,
+            "segments": [
+                {
+                    "airline": "Delta",
+                    "duration": 533,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "ATL",
+                        "name": "Hartsfield-Jackson Atlanta International Airport",
+                        "time": "2026-08-19 14:53"
+                    },
+                    "departure_airport": {
+                        "id": "DUB",
+                        "name": "Dublin Airport",
+                        "time": "2026-08-19 11:00"
+                    }
+                },
+                {
+                    "airline": "Delta",
+                    "duration": 252,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "LAS",
+                        "name": "Harry Reid International Airport",
+                        "time": "2026-08-19 17:52"
+                    },
+                    "departure_airport": {
+                        "id": "ATL",
+                        "name": "Hartsfield-Jackson Atlanta International Airport",
+                        "time": "2026-08-19 16:40"
+                    }
+                }
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+            "total_duration": 892,
+            "departure_token": "WyJDalJJV21wM1gxcGxVVkpIVjI5QlFUbHRMV2RDUnkwdExTMHRMUzB0TFMxM1ptZGpPRUZCUVVGQlIzRkVjRXRWUjNaWFVYbEJFZ3RFVERFM04zeEVURGN4TVJvTENPU1pEUkFDR2dOVlUwUTRISERrbVEwPSIsW1siRFVCIiwiMjAyNi0wOC0xOSIsIkFUTCIsbnVsbCwiREwiLCIxNzciXSxbIkFUTCIsIjIwMjYtMDgtMTkiLCJMQVMiLG51bGwsIkRMIiwiNzExIl1dXQ=="
+        },
+        "downward": {
+            "price": 2163,
+            "segments": [
+                {
+                    "airline": "Air France",
+                    "duration": 615,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-25 13:05"
+                    },
+                    "departure_airport": {
+                        "id": "LAS",
+                        "name": "Harry Reid International Airport",
+                        "time": "2026-08-24 17:50"
+                    }
+                },
+                {
+                    "airline": "Air France",
+                    "duration": 115,
+                    "travel_class": "Economy",
+                    "arrival_airport": {
+                        "id": "DUB",
+                        "name": "Dublin Airport",
+                        "time": "2026-08-25 15:25"
+                    },
+                    "departure_airport": {
+                        "id": "CDG",
+                        "name": "Aéroport de Paris-Charles de Gaulle",
+                        "time": "2026-08-25 14:30"
+                    }
+                }
+            ],
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "total_duration": 815,
+            "departure_token": null
+        }
+    }
+]

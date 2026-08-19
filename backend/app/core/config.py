@@ -1,6 +1,8 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
+    ALLOWED_ORIGINS: str = "http://localhost:5173"
+    
     GROQ_API_KEY: str
     GROQ_API_URL: str
     GROQ_LLM_MODEL: str

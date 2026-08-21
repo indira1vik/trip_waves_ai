@@ -115,7 +115,7 @@ def print_trip_summary(result: dict) -> None:
         for err in result["errors"]:
             print(f"- {err}")
 
-if __name__ == "__main__":
-    app_graph = build_trip_graph()
-    result = app_graph.invoke({"user_prompt": "..."})
-    print_trip_summary(result)
+# if __name__ == "__main__":
+#     app_graph = build_trip_graph()
+#     result = app_graph.invoke({"user_prompt": "..."})
+#     print_trip_summary(result)

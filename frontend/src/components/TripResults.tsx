@@ -96,11 +96,11 @@ function TripResults({ result, showSaveButton = true, onSave }: TripResultsProps
               </p>
               <p>
                 Total Time: {calc_total_time(
-                  result.optimized_plan?.cheapest_flight?.upward?.total_duration,
-                  result.optimized_plan?.cheapest_flight?.downward?.total_duration
+                  result.optimized_plan?.fastest_flight?.upward?.total_duration,
+                  result.optimized_plan?.fastest_flight?.downward?.total_duration
                 )}
               </p>
-              <p>Airline: {result.optimized_plan?.cheapest_flight?.upward?.segments[0].airline}</p>
+              <p>Airline: {result.optimized_plan?.fastest_flight?.upward?.segments[0].airline}</p>
             </div>
 
             <div className="p-3 rounded-md border">
@@ -115,7 +115,7 @@ function TripResults({ result, showSaveButton = true, onSave }: TripResultsProps
               <p className="text-sm font-semibold opacity-60 mb-1" style={{ color: "var(--color-ink)" }}>
                 Best Rated Hotel
               </p>
-              <p>Rating: {result.optimized_plan?.cheapest_hotel?.location_rating}</p>
+              <p>Rating: {result.optimized_plan?.best_rated_hotel?.location_rating}</p>
             </div>
 
             <div className="p-3 rounded-md border">

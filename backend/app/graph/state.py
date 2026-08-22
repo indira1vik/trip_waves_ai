@@ -2,7 +2,8 @@
 State of a Trip Data
 """
 
-from typing import TypedDict
+from typing import Annotated, TypedDict
+import operator
 
 class TripState(TypedDict):
     user_prompt: str
@@ -20,4 +21,4 @@ class TripState(TypedDict):
 
     optimized_plan: dict
     summary: str
-    errors: list[str]
+    errors: Annotated[list[str], operator.add]

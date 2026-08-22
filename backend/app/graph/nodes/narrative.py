@@ -14,5 +14,5 @@ def narrative_node(state: TripState) -> dict:
         }
         return {"optimized_plan": updated_plan}
     except Exception as ex:
-        return {"errors": state.get("errors", []) + [f"narrative_node: {ex}"]}
+        return {"errors": [f"narrative_node: {ex}"]}
 

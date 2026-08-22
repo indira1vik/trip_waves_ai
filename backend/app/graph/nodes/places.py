@@ -10,5 +10,5 @@ def places_node(state: TripState) -> dict:
     except Exception as ex:
         return {
             "places": [],
-            "errors": state.get("errors", []) + [f"places_node: {ex}"],
+            "errors": [f"places_node: {ex}"],
         }

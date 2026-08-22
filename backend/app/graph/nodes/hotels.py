@@ -15,5 +15,5 @@ def hotels_node(state: TripState) -> dict:
     except Exception as ex:
         return {
             "hotels": [],
-            "errors": state.get("errors", []) + [f"hotels_node: {ex}"],
+            "errors": [f"hotels_node: {ex}"],
         }
